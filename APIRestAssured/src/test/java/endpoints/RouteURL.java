@@ -49,4 +49,12 @@ public class RouteURL {
 	public static String DeleteUserFirstName_InvalidFN = base_url+"/deleteuser/username/99000";
 	
 	
+	
+	//DELETE User by ID
+		public static String DeleteID_Url = base_url+"/deleteuser/{userId}";	
+	//DELETE User by FirstName
+		public static String DeleteFirstName_Url = base_url+"/deleteuser/username/{userFirstName}";
+		
+	
+	
 }
